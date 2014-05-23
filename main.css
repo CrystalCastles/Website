@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#intro{
+    background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    height: 600px;
+    margin: 0;
+    padding: 160px 0 0 0;
+}
