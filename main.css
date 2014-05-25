@@ -71,6 +71,7 @@ h2{
 	list-style: none;
 	position: fixed;
 	right: 20px;
+	bottom: 20px;
 }
 
 #nav li{
@@ -89,7 +90,7 @@ h2{
 	padding: 0;
 }
 
-#second{
+#about{
 	background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1300px;
@@ -98,7 +99,7 @@ h2{
 	padding: 0;
 }
 
-#second .bg{
+#about .bg{
 	background: url(images/trainers.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
@@ -108,14 +109,14 @@ h2{
 	z-index: 200;
 }
 
-#third{
+#work{
 	background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
 
-#fifth{
+#contact{
 	background: #ccc;
 	height: 400px;
 	margin: 0 auto;
@@ -134,3 +135,12 @@ h2{
 	position: relative;
 	width: 350px;	
 }
+
+#hnav{
+	overflow: auto;
+	list-style: none;
+	position: fixed;
+	width: 100%;
+	height: 200px;
+}
+
