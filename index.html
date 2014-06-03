@@ -1,90 +1,103 @@
-<!DOCTYPE html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Daniel Pichardo</title>
-<link href="main.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Gesta|Oswald|Tangerine">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/nbw-parallax.js"></script>
-<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="scripts/jquery.inview.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-    $('#nav').localScroll();
-	
-	//.parallax(xPosition, speedFactor, outerHeight) options:
-	//xPosition - Horizontal position of the element
-	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-	$('#intro').parallax("50%", 0.1);
-	$('#second').parallax("50%", 0.1);
-	$('.bg').parallax("50%", 0.4);
-	$('#third').parallax("50%", 0.3);
-})
-</script>
-</head>
+	<!DOCTYPE html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Daniel Pichardo</title>
+	<link href="main.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Viga|Gesta|Oswald|Tangerine&effect=anaglyph">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/nbw-parallax.js"></script>
+	<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.inview.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	    $('#nav').localScroll();
+		
+		//.parallax(xPosition, speedFactor, outerHeight) options:
+		//xPosition - Horizontal position of the element
+		//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+		//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+		$('#intro').parallax("50%", 0.1);
+		$('#second').parallax("50%", 0.1);
+		$('.bg').parallax("50%", 0.4);
+		$('#third').parallax("50%", 0.3);
+	})
+	</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<body>
-	<ul id="nav">
-		<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#about" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#contact" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	</ul>
-    
-    <div id="hnav">
-		<a href="#intro" title="Next Section">Introduction</a>
-	   <a href="#about" title="Next Section">About</a>
-	   <a href="#contact" title="Next Section">Contact</a>
-	</div>
-	
-	<div id="intro">
-		<div class="story">
-			<h2 id="welcome">Welcome</h2>
-	      <p>to my personal website. A striving programmer currently living in Buffalo, NY  </p>
-	    </div> <!--.story-->
-	</div> <!--#intro-->
-	
-	<div id="about">
-		<div class="story"><div class="bg"></div>
-	    	<div class="float-right">
-	            <h2>Welcome</h2>
-	            <p>to my page. I am an aspiring</p>
-	        </div>
-	    </div> <!--.story--> 
-	</div> <!--#second-->
-	
-	<div id="contact">
-		<div class="story">
-			<div class="float-right">
-            <h2>test</h2>
-        	<header class="body">
-    		</header>
+  ga('create', 'UA-51588711-1', 'danielpichardo.com');
+  ga('send', 'pageview');
 
-    		<section class="body">
-    		<form method="post" action="index.php">
-        
-    		<label>Name</label>
-   			<input name="name" placeholder="Type Here">
-            
-    		<label>Email</label>
-    		<input name="email" type="email" placeholder="Type Here">
-            
-    		<label>Message</label>
-    		<textarea name="message" placeholder="Type Here"></textarea>
-            
-    		<input id="submit" name="submit" type="submit" value="Submit">
-        
-			</form>
-    		</section>
-
-    		<footer class="body">
-    		</footer>
-    		
-			</div>
-	    </div> <!--.story-->
-	</div> <!--#fifth-->
+	</script>
+	</head>
 	
+	<body>
+		<ul id="nav">
+			<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+		    <li><a href="#about" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+		    <li><a href="#contact" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+		</ul>
+		
+		<nav>
+			<ul>
+			<p id="hname">DANIEL P.</p>
+			<li class="hbar"><a href="#intro">Intro</a></li>
+			<li class="hbar"><a href="#about">About</a></li>
+			<li class="hbar"><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div id="intro">
+			<div class="story">
+				<div class="font-effect-anaglyph"><h2 id="welcome">Welcome</h2></div>
+		      <p id="intropar">...to my personal website. A striving programmer currently living in Buffalo, NY that is
+		      ready to face any problem head-on.</p>
+		    </div> <!--.story-->
+		</div> <!--#intro-->
+		
+		<div id="about">
+			<div class="story"><div class="bg"></div>
+		    	<div class="float-left">
+		            <p></p>
+		        </div>
+		    </div> <!--.story--> 
+		</div> <!--#second-->
+		
+		<div id="contact">
+			<div class="story">
+				<div class="float-right">
+	            <h2>Or use this form to send me a direct email!</h2>
+	        	<header class="body">
+	    		</header>
 	
-</body>
-</html>
+	    		<section class="body">
+	    		<form method="post" action="index.php">
+	        
+	    		<label>Name</label>
+	   			<input name="name" placeholder="Type Here">
+	            
+	    		<label>Email</label>
+	    		<input name="email" type="email" placeholder="Type Here">
+	            
+	    		<label>Message</label>
+	    		<textarea name="message" placeholder="Type Here"></textarea>
+	            
+	    		<input id="submit" name="submit" type="submit" value="Submit">
+	        
+				</form>
+	    		</section>
+	
+	    		<footer class="body">
+	    		</footer>
+	    		
+				</div>
+		    </div> <!--.story-->
+		</div> <!--#fifth-->
+		
+		
+	</body>
+	</html>
