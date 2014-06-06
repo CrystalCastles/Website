@@ -75,9 +75,10 @@ img{
 #about{
 	background:url(http://wallpapers.wallbase.cc/rozne/wallpaper-859261.jpg) 50% 0 no-repeat fixed;
 	color: black;
-	height: 1300px;
+	height: 1000px;
 	margin: 0 auto;
 	overflow: hidden;
+	font-size: 1.5em;
 }
 
 #about .bg{
@@ -206,6 +207,11 @@ nav ul {
 nav li {
 	display: table-cell;
 	margin: 0;
+}
+
+#cinfo {
+	float: left;
+
 }
 
 img#animation {-webkit-animation: myAnim 3s infinite;
