@@ -65,7 +65,7 @@ img{
 }
 
 #intro{
-	background:url(http://wallpapers.wallbase.cc/rozne/wallpaper-1266483.jpg) 50% 0 no-repeat fixed;
+	background:url(images/background1.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1000px;
 	margin: 0 auto;
@@ -73,7 +73,7 @@ img{
 }
 
 #about{
-	background:url(http://wallpapers.wallbase.cc/rozne/wallpaper-859261.jpg) 50% 0 no-repeat fixed;
+	background:url(images/background2.jpg) 50% 0 no-repeat fixed;
 	color: black;
 	height: 1000px;
 	margin: 0 auto;
@@ -93,7 +93,7 @@ img{
 
 #contact{
 	/*background: #ACFA58;*/
-	background:url(http://wallpapers.wallbase.cc/rozne/wallpaper-2457617.jpg) 50% 0 no-repeat fixed;
+	background:url(images/background3.jpg) 50% 0 no-repeat fixed;
 	height: 800px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
