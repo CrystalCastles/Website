@@ -81,7 +81,7 @@ img{
 	font-size: 1.5em;
 }
 
-#about .bg{
+/*#about .bg{
 	background: url(images/res.png) 50% 0 no-repeat fixed;
 	height: 800px;
 	margin: 0 auto;
@@ -89,12 +89,12 @@ img{
 	position: absolute;
 	width: 900px;
 	z-index: 200;
-}
+}*/
 
 #contact{
 	/*background: #ACFA58;*/
 	background:url(images/background3.jpg) 50% 0 no-repeat fixed;
-	height: 800px;
+	height: 1000px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
 }
@@ -112,7 +112,75 @@ img{
 	width: 400px;	
 }
 
-/**********************CONTACT FORM***************/
+#hnav{
+	overflow: auto;
+	list-style: none;
+	position: fixed;
+	height: 50px;
+	font-family: 'Viga', Arial;
+	font-size: 1em;
+}
+
+#welcome{
+	font-family: 'Tangerine', Arial;
+	font-size: 400px;
+	float: none;
+	position:relative;
+	bottom: 130px;
+}
+
+#intropar{
+	position:relative;
+	bottom: 370px;
+	font-size: 2.1rem;
+}
+
+#hname{font-family:'Viga', Arial, sans-serif; color: white; font-size:2rem;}
+
+.hbar{text-decoration:none;background:rgba(0,0,0,0);padding:.2rem;transition:.6s background;}
+
+nav {
+	position: relative;
+	text-align: center;
+	color: white;
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+	font-weight:50;
+	background:rgba(0,0,0,1);
+	font-size:1.5rem;
+	font-family:'Gesta', Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing:.5rem;
+}
+
+nav ul {
+	display: table-row;
+}
+nav li {
+	display: table-cell;
+	margin: 0;
+}
+
+#cinfo {
+	float: left;
+}
+
+#socbar{
+	position:relative;
+	bottom: 500px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	padding: .2em 1em;
+}
+
+#socbar li {display:inline;}
+
+/**********************CONTACT FORM**********************/
 label {
     display:block;
     margin-top:20px;
@@ -162,69 +230,7 @@ input:focus, textarea:focus {
 	 opacity:.9;
 }
 
-/**********************MYCODE*********************/
-#hnav{
-	overflow: auto;
-	list-style: none;
-	position: fixed;
-	height: 50px;
-}
-
-#welcome{
-	font-family: 'Tangerine', Arial;
-	font-size: 400px;
-	float: none;
-	position:relative;
-	bottom: 130px;
-}
-
-#intropar{
-	position:relative;
-	bottom: 370px;
-	font-size: 2.1rem;
-}
-
-#hname{font-family:'Viga', Arial, sans-serif; color: white; font-size:2rem;}
-
-.hbar{text-decoration:none;background:rgba(0,0,0,0);padding:.2rem;transition:.6s background;}
-
-nav {
-	position: absolute;
-	display: table;
-	width: 100%;
-	border-collapse: collapse;
-	border: none;
-	font-weight:50;
-	background:rgba(0,0,0,1);
-	font-size:1.5rem;
-	font-family:'Gesta', Arial, sans-serif;
-	text-transform: uppercase;
-	letter-spacing:.5rem;
-}
-nav ul {
-	display: table-row;
-}
-nav li {
-	display: table-cell;
-	margin: 0;
-}
-
-#cinfo {
-	float: left;
-}
-
-#socbar{
-	position:relative;
-	bottom: 500px;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	text-decoration: none;
-	padding: .2em 1em;
-}
-
-#socbar li {display:inline;}
+/**********************ANIMATION**********************/
 
 img#animation {-webkit-animation: myAnim 3s infinite;
 }
