@@ -1,5 +1,5 @@
-	<!DOCTYPE html>
-	<head>
+<!DOCTYPE html>
+<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Daniel Pichardo</title>
 	<link href="main.css" rel="stylesheet" type="text/css" />
@@ -11,108 +11,102 @@
 	<script type="text/javascript" src="scripts/jquery.inview.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
-	    $('#nav').localScroll();
-		
-		//.parallax(xPosition, speedFactor, outerHeight) options:
-		//xPosition - Horizontal position of the element
-		//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-		//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-		$('#intro').parallax("50%", 0.1);
-		$('#second').parallax("50%", 0.1);
-		$('.bg').parallax("50%", 0.4);
-		$('#third').parallax("50%", 0.3);
-	})
+		$('#nav').localScroll();
+
+<!-- Parallax Effect Made Possible By Iann Lunn, learn more at http://www.ianlunn.co.uk/ -->
+//.parallax(xPosition, speedFactor, outerHeight) options:
+//xPosition - Horizontal position of the element
+//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+$('#intro').parallax("50%", 0.1);
+$('#second').parallax("50%", 0.1);
+$('.bg').parallax("50%", 0.4);
+$('#third').parallax("50%", 0.3);
+})
 	</script>
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-51588711-1', 'danielpichardo.com');
-  ga('send', 'pageview');
+	ga('create', 'UA-51588711-1', 'danielpichardo.com');
+	ga('send', 'pageview');
 
 	</script>
-	</head>
-	
-	<body>
-		<ul id="nav">
-			<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-		    <li><a href="#about" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-		    <li><a href="#contact" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-		</ul>
-		
-		<nav>
-			<ul>
+</head>
+
+<body>
+	<ul id="nav">
+		<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+		<li><a href="#about" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+		<li><a href="#contact" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	</ul>
+
+	<nav>
+		<ul>
 			<li><p>Dan P.</p></li>
 			<li class="hbar"><a href="#intro">Intro</a></li>
 			<li class="hbar"><a href="#about">About</a></li>
 			<li class="hbar"><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<div id="intro">
+		<div class="story">
+			<div class="font-effect-anaglyph"><h2 id="welcome">Welcome</h2></div>
+			<ul id="socbar">
+
+				<li><a href="mailto:danielpichardo716@gmail.com"><img src="images/gmail.png" title="Gmail"/></a></li>
+				<li><a href="https://www.linkedin.com/in/dpichardo"><img src="images/linkedin.png" title="Linkedin"/></a></li>
+				<li><a href="https://github.com/CrystalCastles"><img src="images/github.png" title="Github"/></a></li>
+				<li><a href="files/resume.pdf" target="_blank"><img src="images/resume.png" title="Resume"/></a></li>						
 			</ul>
-		</nav>
-		
-		<div id="intro">
-			<div class="story">
-				<div class="font-effect-anaglyph"><h2 id="welcome">Welcome</h2></div>
-				<ul id="socbar">
-                	
-					<li><a href="mailto:danielpichardo716@gmail.com"><img src="images/gmail.png" title="Gmail"/></a></li>
-					<li><a href="https://www.linkedin.com/in/dpichardo"><img src="images/linkedin.png" title="Linkedin"/></a></li>
-					<li><a href="https://github.com/CrystalCastles"><img src="images/github.png" title="Github"/></a></li>
-					<li><a href="files/resume.pdf" target="_blank"><img src="images/resume.png" title="Resume"/></a></li>						
-				</ul>
-		      <p id="intropar">...to my personal website. A striving programmer currently living in Buffalo, NY that is
-		      ready to face any problem head-on. So take a look, and don't be shy contact me with any questions.</p>
-		    </div> <!--.story-->
+			<p id="intropar">...to my personal website. A striving programmer currently living in Buffalo, NY that is
+				ready to face any problem head-on. So take a look, check out the links above, and don't be shy contact me
+				with any questions.</p>
+			</div> <!--.story-->
 		</div> <!--#intro-->
-		
+
 		<div id="about">
 			<div class="story"><div class="bg"></div>
-		    	<div class="float-left">
-						<h2>About Me</h2>		            
-		            <p>I am a passionate programmer recent graduate from University at Buffalo with a B.S. in Computer Science.  </p>
-		      </div>
-		   </div> <!--.story--> 
+			<div class="float-left">
+				<h2>About Me</h2>		            
+				<p>Hi there, I am a recent graduate from University at Buffalo with a B.S. in Computer Science. I am passionate about development and learning new and exciting ways to get a program running. Whether I'm working solo or with a team, I always put my best into every aspect and phase of the project. Amoung being a developer, I also love music, photography and editing, and the outdoors. As well as meeting new people! So if you want to work together, feel free to give me a shout.</p>
+				</div>
+			</div> <!--.story--> 
 		</div> <!--#second-->
-		
+
 		<div id="contact">
 			<div class="story">
 				<div class="float-left">
-				<h2>Get in Touch.</h2>
+					<h2>Get in Touch.</h2>
 					<p>Contact me through my email at <a href="mailto:danielpichardo716@gmail.com">danielpichardo716@gmail.com</a>, or 
-					connect with me on <a href="https://www.linkedin.com/in/dpichardo">linkedin</a></p>				
+						connect with me on <a href="https://www.linkedin.com/in/dpichardo">linkedin</a></p>				
 				</div>
 				<div class="float-right">
-	            <h2>Or use this form to send me a direct email!</h2>
-	        	<header class="body">
-	    		</header>
-	
-	    		<section class="body">
-	    		<form method="post" action="index.php">
-	        
-	    		<label>Name</label>
-	   		<input name="name" placeholder="Type Here">
-	            
-	    		<label>Email</label>
-	    		<input name="email" type="email" placeholder="Type Here">
-	            
-	    		<label>Message</label>
-	    		<textarea name="message" placeholder="Type Here"></textarea>
-	    		
-	    		<label>*What is 2+2? (Anti-spam)</label>
-				<input name="human" placeholder="Type Here">
-	            
-	    		<input id="submit" name="submit" type="submit" value="Submit">
-	        
-				</form>
-	    		</section>
-	
-	    		<footer class="body">
-	    		</footer>
-	    		
+					<h2>Or use this form to send me a direct email!</h2>
+					<header class="body"></header>
+					<section class="body">
+						<form method="post" action="index.php">
+							<label>Name</label>
+							<input name="name" placeholder="Type Here">
+
+							<label>Email</label>
+							<input name="email" type="email" placeholder="Type Here">
+
+							<label>Message</label>
+							<textarea name="message" placeholder="Type Here"></textarea>
+
+							<label>*What is 2+2? (Anti-spam)</label>
+							<input name="human" placeholder="Type Here">
+
+							<input id="submit" name="submit" type="submit" value="Submit">
+						</form>
+					</section>
+					<footer class="body"></footer>
 				</div>
-		    </div> <!--.story-->
+			</div> <!--.story-->
 		</div> <!--#fifth-->
-		
-	</body>
-	</html>
+</body>
+</html>
